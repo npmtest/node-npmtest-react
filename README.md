@@ -1,6 +1,6 @@
 # npmtest-react
 
-#### test coverage for  [react (v15.5.4)](https://facebook.github.io/react/)  [![npm package](https://img.shields.io/npm/v/npmtest-react.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react.svg)](https://travis-ci.org/npmtest/node-npmtest-react)
+#### basic test coverage for  [react (v15.5.4)](https://facebook.github.io/react/)  [![npm package](https://img.shields.io/npm/v/npmtest-react.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react.svg)](https://travis-ci.org/npmtest/node-npmtest-react)
 
 #### React is a JavaScript library for building user interfaces.
 
