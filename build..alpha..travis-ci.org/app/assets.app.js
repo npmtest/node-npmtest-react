@@ -33229,7 +33229,7 @@ local.stateInit({
             "npm_package_homepage": "https://github.com/npmtest/node-npmtest-react",
             "npm_package_name": "npmtest-react",
             "npm_package_nameLib": "npmtest_react",
-            "npm_package_version": "0.0.5"
+            "npm_package_version": "2018.6.10"
         }
     }
 });
