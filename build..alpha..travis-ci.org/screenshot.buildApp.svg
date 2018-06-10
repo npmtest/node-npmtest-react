@@ -1,9 +1,9 @@
-<svg height="974" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="974" fill="#555" width="720"></rect>
+<svg height="2238" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="2238" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-10T18:19:13.322Z - npm-testing /home/travis/build/npmtest/node-n\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-10T18:21:27.866Z - npm-testing /home/travis/build/npmtest/node-n\</tspan>
 <tspan x="10" y="58">pmtest-react</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -13,7 +13,7 @@
 <tspan x="10" y="106">buildApp - merged test-report from file /home/travis/build/npmtest/node-npmtest-react/tmp/build/\</tspan>
 <tspan x="10" y="122">test-report.json</tspan>
 
-<tspan x="10" y="138">&gt; server listening on http-port 62961</tspan>
+<tspan x="10" y="138">&gt; server listening on http-port 51887</tspan>
 
 <tspan x="10" y="154">apidocCreate - readExample /home/travis/build/npmtest/node-npmtest-react/node_modules/react/pack\</tspan>
 <tspan x="10" y="170">age.json</tspan>
@@ -51,59 +51,189 @@
 
 <tspan x="10" y="490"></tspan>
 
-<tspan x="10" y="506">(node:5842) DeprecationWarning: _linklist module is deprecated. Please use a userland alternativ\</tspan>
+<tspan x="10" y="506">(node:7986) DeprecationWarning: _linklist module is deprecated. Please use a userland alternativ\</tspan>
 <tspan x="10" y="522">e.</tspan>
 
-<tspan x="10" y="538">(node:5842) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+<tspan x="10" y="538">(node:7986) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
 
-<tspan x="10" y="554">&gt; server listening on http-port 47681</tspan>
+<tspan x="10" y="554">&gt; server listening on http-port 43794</tspan>
 
-<tspan x="10" y="570">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="570">events.js:160</tspan>
 
-<tspan x="10" y="586"></tspan>
+<tspan x="10" y="586">      throw er; // Unhandled 'error' event</tspan>
 
-<tspan x="10" y="602">buildApp - merged test-report from file /home/travis/build/npmtest/node-npmtest-react/tmp/build/\</tspan>
-<tspan x="10" y="618">test-report.json</tspan>
+<tspan x="10" y="602">      ^</tspan>
 
-<tspan x="10" y="634"></tspan>
+<tspan x="10" y="618"></tspan>
 
-<tspan x="10" y="650">-------------------------------------------------------</tspan>
+<tspan x="10" y="634">Error: listen EADDRINUSE :::43794</tspan>
 
-<tspan x="10" y="666">| test-report - buildApidoc - node - linux v6.14.2 - 2018-06-10T18:18:37.342Z</tspan>
+<tspan x="10" y="650">    at Object.exports._errnoException (util.js:1020:11)</tspan>
 
-<tspan x="10" y="682">|   41999 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="666">    at exports._exceptionWithHostPort (util.js:1043:20)</tspan>
 
-<tspan x="10" y="698">-------------------------------------------------------</tspan>
+<tspan x="10" y="682">    at Server._listen2 (net.js:1271:14)</tspan>
 
-<tspan x="10" y="714">| test-report - buildApp - node - linux v6.14.2 - 2018-06-10T18:18:07.821Z</tspan>
+<tspan x="10" y="698">    at listen (net.js:1307:10)</tspan>
 
-<tspan x="10" y="730">|   26084 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="714">    at Server.listen (net.js:1403:5)</tspan>
 
-<tspan x="10" y="746">-------------------------------------------------------</tspan>
+<tspan x="10" y="730">    at Object.local.testRunServer (/home/travis/build/npmtest/node-npmtest-react/tmp/assets.app.\</tspan>
+<tspan x="10" y="746">js:22925:47)</tspan>
 
-<tspan x="10" y="762">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
-<tspan x="10" y="778">L, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-10T18:18:19.256Z</tspan>
+<tspan x="10" y="762">    at Timeout._onTimeout (/home/travis/build/npmtest/node-npmtest-react/tmp/assets.app.js:22869\</tspan>
+<tspan x="10" y="778">:27)</tspan>
 
-<tspan x="10" y="794">|      40 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="794">    at ontimeout (timers.js:386:11)</tspan>
 
-<tspan x="10" y="810">-------------------------------------------------------</tspan>
+<tspan x="10" y="810">    at tryOnTimeout (timers.js:250:5)</tspan>
 
-<tspan x="10" y="826"></tspan>
+<tspan x="10" y="826">    at Timer.listOnTimeout (timers.js:214:5)</tspan>
 
-<tspan x="10" y="842">created test-report file /home/travis/build/npmtest/node-npmtest-react/tmp/build/test-report.htm\</tspan>
-<tspan x="10" y="858">l</tspan>
+<tspan x="10" y="842">Error: 1</tspan>
 
-<tspan x="10" y="874"></tspan>
+<tspan x="10" y="858">    at Object.local.assert (/home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/\</tspan>
+<tspan x="10" y="874">lib.utility2.js:2643:19)</tspan>
 
-<tspan x="10" y="890"></tspan>
+<tspan x="10" y="890">    at ChildProcess.&lt;anonymous&gt; (/home/travis/build/npmtest/node-npmtest-react/node_modules/util\</tspan>
+<tspan x="10" y="906">ity2/lib.utility2.js:3411:31)</tspan>
 
-<tspan x="10" y="906">buildApp - 0 failed tests</tspan>
+<tspan x="10" y="922">    at ChildProcess.g (events.js:292:16)</tspan>
 
-<tspan x="10" y="922"></tspan>
+<tspan x="10" y="938">    at emitTwo (events.js:111:20)</tspan>
 
-<tspan x="10" y="938"></tspan>
+<tspan x="10" y="954">    at ChildProcess.emit (events.js:191:7)</tspan>
 
-<tspan x="10" y="954">[MODE_BUILD=buildApp] - 2018-06-10T18:19:20.857Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="970">    at Process.ChildProcess._handle.onexit (internal/child_process.js:219:12)</tspan>
+
+<tspan x="10" y="986"></tspan>
+
+<tspan x="10" y="1002">testCase testCase_buildApp_default failed</tspan>
+
+<tspan x="10" y="1018">onTimeout - timeout-error - 30000 ms - testCase_buildApp_default</tspan>
+
+<tspan x="10" y="1034">Error: onTimeout - timeout-error - 30000 ms - testCase_buildApp_default</tspan>
+
+<tspan x="10" y="1050">    at Timeout._onTimeout (/home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/l\</tspan>
+<tspan x="10" y="1066">ib.utility2.js:5405:25)</tspan>
+
+<tspan x="10" y="1082">    at ontimeout (timers.js:386:11)</tspan>
+
+<tspan x="10" y="1098">    at tryOnTimeout (timers.js:250:5)</tspan>
+
+<tspan x="10" y="1114">    at Timer.listOnTimeout (timers.js:214:5)</tspan>
+
+<tspan x="10" y="1130">Error</tspan>
+
+<tspan x="10" y="1146">    at Object.local.onTimeout (/home/travis/build/npmtest/node-npmtest-react/node_modules/utilit\</tspan>
+<tspan x="10" y="1162">y2/lib.utility2.js:5402:29)</tspan>
+
+<tspan x="10" y="1178">    at local.onParallelList.local.global.utility2_modeTestRun (/home/travis/build/npmtest/node-n\</tspan>
+<tspan x="10" y="1194">pmtest-react/node_modules/utility2/lib.utility2.js:6946:38)</tspan>
+
+<tspan x="10" y="1210">    at onEach2 (/home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2\</tspan>
+<tspan x="10" y="1226">.js:5314:21)</tspan>
+
+<tspan x="10" y="1242">    at Object.local.onParallelList (/home/travis/build/npmtest/node-npmtest-react/node_modules/u\</tspan>
+<tspan x="10" y="1258">tility2/lib.utility2.js:5343:13)</tspan>
+
+<tspan x="10" y="1274">    at Object.local.testRunDefault (/home/travis/build/npmtest/node-npmtest-react/node_modules/u\</tspan>
+<tspan x="10" y="1290">tility2/lib.utility2.js:6900:19)</tspan>
+
+<tspan x="10" y="1306">    at /home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2.js:6828:\</tspan>
+<tspan x="10" y="1322">31</tspan>
+
+<tspan x="10" y="1338">    at onError2 (/home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility\</tspan>
+<tspan x="10" y="1354">2.js:5200:17)</tspan>
+
+<tspan x="10" y="1370">    at /home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2.js:6229:\</tspan>
+<tspan x="10" y="1386">29</tspan>
+
+<tspan x="10" y="1402">    at Array.forEach (native)</tspan>
+
+<tspan x="10" y="1418">[node test-case 1 of 1 failed] - testCase_buildApp_default</tspan>
+
+<tspan x="10" y="1434"></tspan>
+
+<tspan x="10" y="1450">buildApp - merged test-report from file /home/travis/build/npmtest/node-npmtest-react/tmp/build/\</tspan>
+<tspan x="10" y="1466">test-report.json</tspan>
+
+<tspan x="10" y="1482"></tspan>
+
+<tspan x="10" y="1498">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="1514">| test-report - buildApidoc - node - linux v6.14.2 - 2018-06-10T18:18:37.342Z</tspan>
+
+<tspan x="10" y="1530">|  200755 ms            1 failed        0 passed      |</tspan>
+
+<tspan x="10" y="1546">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="1562">| test-report - buildApp - node - linux v6.14.2 - 2018-06-10T18:18:07.821Z</tspan>
+
+<tspan x="10" y="1578">|   26084 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="1594">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="1610">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
+<tspan x="10" y="1626">L, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-10T18:18:19.256Z</tspan>
+
+<tspan x="10" y="1642">|      40 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="1658">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="1674">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
+<tspan x="10" y="1690">L, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-10T18:20:34.009Z</tspan>
+
+<tspan x="10" y="1706">|      42 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="1722">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="1738"></tspan>
+
+<tspan x="10" y="1754">created test-report file /home/travis/build/npmtest/node-npmtest-react/tmp/build/test-report.htm\</tspan>
+<tspan x="10" y="1770">l</tspan>
+
+<tspan x="10" y="1786"></tspan>
+
+<tspan x="10" y="1802"></tspan>
+
+<tspan x="10" y="1818">buildApp - 1 failed tests</tspan>
+
+<tspan x="10" y="1834"></tspan>
+
+<tspan x="10" y="1850">{</tspan>
+
+<tspan x="10" y="1866">    "name": "testCase_buildApp_default",</tspan>
+
+<tspan x="10" y="1882">    "status": "failed",</tspan>
+
+<tspan x="10" y="1898">    "errorStack": "onTimeout - timeout-error - 30000 ms - testCase_buildApp_default\nError: onTi\</tspan>
+<tspan x="10" y="1914">meout - timeout-error - 30000 ms - testCase_buildApp_default\n    at Timeout._onTimeout (/home/t\</tspan>
+<tspan x="10" y="1930">ravis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2.js:5405:25)\n    at on\</tspan>
+<tspan x="10" y="1946">timeout (timers.js:386:11)\n    at tryOnTimeout (timers.js:250:5)\n    at Timer.listOnTimeout (t\</tspan>
+<tspan x="10" y="1962">imers.js:214:5)\nError\n    at Object.local.onTimeout (/home/travis/build/npmtest/node-npmtest-r\</tspan>
+<tspan x="10" y="1978">eact/node_modules/utility2/lib.utility2.js:5402:29)\n    at local.onParallelList.local.global.ut\</tspan>
+<tspan x="10" y="1994">ility2_modeTestRun (/home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.util\</tspan>
+<tspan x="10" y="2010">ity2.js:6946:38)\n    at onEach2 (/home/travis/build/npmtest/node-npmtest-react/node_modules/uti\</tspan>
+<tspan x="10" y="2026">lity2/lib.utility2.js:5314:21)\n    at Object.local.onParallelList (/home/travis/build/npmtest/n\</tspan>
+<tspan x="10" y="2042">ode-npmtest-react/node_modules/utility2/lib.utility2.js:5343:13)\n    at Object.local.testRunDef\</tspan>
+<tspan x="10" y="2058">ault (/home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2.js:6900:1\</tspan>
+<tspan x="10" y="2074">9)\n    at /home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2.js:6\</tspan>
+<tspan x="10" y="2090">828:31\n    at onError2 (/home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib\</tspan>
+<tspan x="10" y="2106">.utility2.js:5200:17)\n    at /home/travis/build/npmtest/node-npmtest-react/node_modules/utility\</tspan>
+<tspan x="10" y="2122">2/lib.utility2.js:6229:29\n    at Array.forEach (native)",</tspan>
+
+<tspan x="10" y="2138">    "timeElapsed": 30003,</tspan>
+
+<tspan x="10" y="2154">    "timeStart": 1528654888295,</tspan>
+
+<tspan x="10" y="2170">    "isDone": true</tspan>
+
+<tspan x="10" y="2186">}</tspan>
+
+<tspan x="10" y="2202"></tspan>
+
+<tspan x="10" y="2218">[MODE_BUILD=buildApp] - 2018-06-10T18:21:59.643Z - EXIT_CODE - 1</tspan>
 
 </text>
 </svg>

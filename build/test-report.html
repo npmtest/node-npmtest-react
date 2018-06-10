@@ -262,10 +262,10 @@ textarea {
 <h4>
     <span>version</span>-
         2018.6.10<br>
-    <span>test date</span>- 2018-06-10T18:19:13.555Z<br>
+    <span>test date</span>- 2018-06-10T18:21:28.105Z<br>
     <span>commit info</span>-
         
-        5aebec854baa66b7d091df4e49112a2a70c378c0 - <br>
+        d8871718480a2f457c65d0ea018608f7317a5d92 - [npm publishAfterCommitAfterBuild]<br>
         
 </h4>
 <table>
@@ -278,9 +278,9 @@ textarea {
     </tr>
 </thead>
 <tbody><tr>
-    <td>72775 ms</td>
-    <td class="testPassed">0</td>
-    <td>17</td>
+    <td>231551 ms</td>
+    <td class="testFailed">1</td>
+    <td>24</td>
     <td>0</td>
 </tr></tbody>
 </table>
@@ -295,9 +295,9 @@ textarea {
     </a>
     <br>
     
-    <span>time-elapsed</span>- 43250 ms<br>
-    <span>tests failed</span>- 0<br>
-    <span>tests passed</span>- 1<br>
+    <span>time-elapsed</span>- 202026 ms<br>
+    <span>tests failed</span>- 1<br>
+    <span>tests passed</span>- 0<br>
     <span>tests pending</span>- 0<br>
 </h4>
 <table>
@@ -311,14 +311,32 @@ textarea {
 
 <tr>
     <td>1</td>
-    <td>5778 ms</td>
-    <td class="testPassed">passed</td>
+    <td>30003 ms</td>
+    <td class="testFailed">failed</td>
     <td>testCase_buildApp_default</td>
 </tr>
 
 </tbody>
 </table>
-<pre class="displayNone" tabIndex="0">
+<pre class="" tabIndex="0">
+
+1. testCase_buildApp_default
+onTimeout - timeout-error - 30000 ms - testCase_buildApp_default
+Error: onTimeout - timeout-error - 30000 ms - testCase_buildApp_default
+    at Timeout._onTimeout (/home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2.js:5405:25)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+Error
+    at Object.local.onTimeout (/home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2.js:5402:29)
+    at local.onParallelList.local.global.utility2_modeTestRun (/home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2.js:6946:38)
+    at onEach2 (/home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2.js:5314:21)
+    at Object.local.onParallelList (/home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2.js:5343:13)
+    at Object.local.testRunDefault (/home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2.js:6900:19)
+    at /home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2.js:6828:31
+    at onError2 (/home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2.js:5200:17)
+    at /home/travis/build/npmtest/node-npmtest-react/node_modules/utility2/lib.utility2.js:6229:29
+    at Array.forEach (native)
 
 </pre>
 </div>
@@ -332,7 +350,7 @@ textarea {
     </a>
     <br>
     
-    <span>time-elapsed</span>- 72775 ms<br>
+    <span>time-elapsed</span>- 231551 ms<br>
     <span>tests failed</span>- 0<br>
     <span>tests passed</span>- 8<br>
     <span>tests pending</span>- 0<br>
@@ -418,7 +436,7 @@ textarea {
     </a>
     <br>
     
-    <span>time-elapsed</span>- 61482 ms<br>
+    <span>time-elapsed</span>- 220258 ms<br>
     <span>tests failed</span>- 0<br>
     <span>tests passed</span>- 8<br>
     <span>tests pending</span>- 0<br>
@@ -484,6 +502,92 @@ textarea {
 <tr>
     <td>17</td>
     <td>12 ms</td>
+    <td class="testPassed">passed</td>
+    <td>testCase_webpage_default</td>
+</tr>
+
+</tbody>
+</table>
+<pre class="displayNone" tabIndex="0">
+
+</pre>
+</div>
+
+<div class="platform">
+<h4>
+    4. npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-10T18:20:34.009Z<br>
+    
+    <a href="screenshot.npmTest.browser.%252F.png">
+        <img alt="screenshot.npmTest.browser.%252F.png" src="screenshot.npmTest.browser.%252F.png">
+    </a>
+    <br>
+    
+    <span>time-elapsed</span>- 85507 ms<br>
+    <span>tests failed</span>- 0<br>
+    <span>tests passed</span>- 8<br>
+    <span>tests pending</span>- 0<br>
+</h4>
+<table>
+<thead><tr>
+    <th>#</th>
+    <th>time-elapsed</th>
+    <th>status</th>
+    <th>test-case</th>
+</tr></thead>
+<tbody>
+
+<tr>
+    <td>18</td>
+    <td>0 ms</td>
+    <td class="testPassed">passed</td>
+    <td>testCase_buildApidoc_default</td>
+</tr>
+
+<tr>
+    <td>19</td>
+    <td>0 ms</td>
+    <td class="testPassed">passed</td>
+    <td>testCase_buildApp_default</td>
+</tr>
+
+<tr>
+    <td>20</td>
+    <td>0 ms</td>
+    <td class="testPassed">passed</td>
+    <td>testCase_buildCustomOrg_default</td>
+</tr>
+
+<tr>
+    <td>21</td>
+    <td>0 ms</td>
+    <td class="testPassed">passed</td>
+    <td>testCase_buildLib_default</td>
+</tr>
+
+<tr>
+    <td>22</td>
+    <td>0 ms</td>
+    <td class="testPassed">passed</td>
+    <td>testCase_buildReadme_default</td>
+</tr>
+
+<tr>
+    <td>23</td>
+    <td>0 ms</td>
+    <td class="testPassed">passed</td>
+    <td>testCase_buildTest_default</td>
+</tr>
+
+<tr>
+    <td>24</td>
+    <td>0 ms</td>
+    <td class="testPassed">passed</td>
+    <td>testCase_nop_default</td>
+</tr>
+
+<tr>
+    <td>25</td>
+    <td>14 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_webpage_default</td>
 </tr>
