@@ -3,7 +3,7 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-10T18:14:46.465Z - npm-testing /home/travis/build/npmtest/node-n\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-10T18:19:13.322Z - npm-testing /home/travis/build/npmtest/node-n\</tspan>
 <tspan x="10" y="58">pmtest-react</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -13,7 +13,7 @@
 <tspan x="10" y="106">buildApp - merged test-report from file /home/travis/build/npmtest/node-npmtest-react/tmp/build/\</tspan>
 <tspan x="10" y="122">test-report.json</tspan>
 
-<tspan x="10" y="138">&gt; server listening on http-port 38165</tspan>
+<tspan x="10" y="138">&gt; server listening on http-port 62961</tspan>
 
 <tspan x="10" y="154">apidocCreate - readExample /home/travis/build/npmtest/node-npmtest-react/node_modules/react/pack\</tspan>
 <tspan x="10" y="170">age.json</tspan>
@@ -51,12 +51,12 @@
 
 <tspan x="10" y="490"></tspan>
 
-<tspan x="10" y="506">(node:5847) DeprecationWarning: _linklist module is deprecated. Please use a userland alternativ\</tspan>
+<tspan x="10" y="506">(node:5842) DeprecationWarning: _linklist module is deprecated. Please use a userland alternativ\</tspan>
 <tspan x="10" y="522">e.</tspan>
 
-<tspan x="10" y="538">(node:5847) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+<tspan x="10" y="538">(node:5842) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
 
-<tspan x="10" y="554">&gt; server listening on http-port 49670</tspan>
+<tspan x="10" y="554">&gt; server listening on http-port 47681</tspan>
 
 <tspan x="10" y="570">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
 
@@ -69,22 +69,22 @@
 
 <tspan x="10" y="650">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="666">| test-report - buildApidoc - node - linux v6.14.2 - 2018-06-10T18:14:12.344Z</tspan>
+<tspan x="10" y="666">| test-report - buildApidoc - node - linux v6.14.2 - 2018-06-10T18:18:37.342Z</tspan>
 
-<tspan x="10" y="682">|   40109 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="682">|   41999 ms            0 failed        1 passed      |</tspan>
 
 <tspan x="10" y="698">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="714">| test-report - buildApp - node - linux v6.14.2 - 2018-06-10T18:13:42.599Z</tspan>
+<tspan x="10" y="714">| test-report - buildApp - node - linux v6.14.2 - 2018-06-10T18:18:07.821Z</tspan>
 
-<tspan x="10" y="730">|   26178 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="730">|   26084 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="746">-------------------------------------------------------</tspan>
 
 <tspan x="10" y="762">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
-<tspan x="10" y="778">L, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-10T18:13:53.954Z</tspan>
+<tspan x="10" y="778">L, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-10T18:18:19.256Z</tspan>
 
-<tspan x="10" y="794">|      35 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="794">|      40 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="810">-------------------------------------------------------</tspan>
 
@@ -103,7 +103,7 @@
 
 <tspan x="10" y="938"></tspan>
 
-<tspan x="10" y="954">[MODE_BUILD=buildApp] - 2018-06-10T18:14:53.984Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="954">[MODE_BUILD=buildApp] - 2018-06-10T18:19:20.857Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
